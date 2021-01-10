@@ -1,0 +1,32 @@
+{
+	"master":{
+		"vm_define":"master",
+		"vb_name":"CentOS-master",
+		"ip":"<ip>",
+		"hostname":"master.centos.test",
+		"ssh_forward":29210
+	},
+	"nodes":[
+		{
+			"vm_define":"node01",
+			"vb_name":"CentOS-node01",
+			"ip":"<ip>",
+			"hostname":"node01.centos.test",
+			"ssh_forward":29211
+		},
+		{
+			"vm_define":"node02",
+			"vb_name":"CentOS-node02",
+			"ip":"<ip>",
+			"hostname":"node02.centos.test",
+			"ssh_forward":29212
+		},
+		{
+			"vm_define":"node03",
+			"vb_name":"CentOS-node03",
+			"ip":"<ip>",
+			"hostname":"node03.centos.test",
+			"ssh_forward":29213
+		}
+	]
+}
